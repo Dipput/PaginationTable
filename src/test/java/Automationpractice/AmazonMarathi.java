@@ -21,7 +21,7 @@ public class AmazonMarathi {
 		driver.get("https://www.amazon.in/");
 		WebElement click = driver.findElement(By.xpath("//div[@id='nav-flyout-icp']//span[text()='मराठी']/preceding-sibling::i[@class='icp-radio']"));
 		 driver.quit();
-		
+		System.out.println("hello");
 		
 	}
 }
